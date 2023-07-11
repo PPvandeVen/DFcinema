@@ -21,6 +21,10 @@
     width: 500px
 }
 
+#firstCpic {
+    width: 400px;
+}
+
 header {
     background-color: rgb(230, 22, 22);
 }
