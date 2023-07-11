@@ -25,6 +25,18 @@
     width: 400px;
 }
 
+#newsletterpic {
+    width: 300px;
+}
+
+#specialoffer {
+    width: 300px;
+}
+
+#watchfree {
+    width: 300px;
+}
+
 header {
     background-color: rgb(230, 22, 22);
 }
@@ -52,5 +64,13 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: rgb(241, 62, 7));
+    color: rgb(241, 62, 7);
+}
+
+#whatsOnImg {
+    width: 500px;
+}
+
+#moon {
+    width: 225px;
 }

@@ -10,14 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <link rel="styles.css" href="styles.css">
-    <style>
-        div {
-            border: 2px solid red
-        }
-
-        ;
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -26,14 +19,17 @@
             <div class="row">
                 <div class="col">
                     <ul class="nav">
+                        <li class="logo">
+                            <img id="logo" src="cinemaLogo.png">
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="whatson.html">What's on</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign Up</a>
+                            <a class="nav-link" href="signup.html">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -45,71 +41,98 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col-8">
-                1 of 2
+        <div class="row" id="mainrow">
+            <div class="col-6">
+                <div>
+                    <img src="newsletter.jpg" id="newsletterpic">
+                </div>
+                <div>
+                    <img src="specialoffer.jpg" id="specialoffer">
+                </div>
+                <div>
+                    <img src="watchfree.png" id="watchfree">
+                </div>
             </div>
-            <div class="col-4">
-                2 of 2
+            <div class="col-6">
+                <div id="content">
+                    <div id="signup-form">
+                        <form>
+                            <label for="Titles" required> Title:</label>
+                            <select name="Titles" id="titles">
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Dr">Dr</option>
+                            </select>
+                            <br><br>
+                            <label for="First Name">First Name</label>
+                            <input type="text" placeholder="First Name" required>
+                            <br><br>
+                            <label for="Last Name">Last Name</label>
+                            <input type="text" placeholder="Last Name" required>
+                            <br><br>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email" required><br><br>
+                            <label for="Date of Birth">Date of Birth</label>
+                            <input type="date" id="Date of Birth">
+                            <br><br>
+                            <label for="phone">Phone*</label>
+                            <input type="text" id="phone" placeholder="Phone Number" required>
+                            <br><br>
+                            <input type="submit" value="Sign Me Up">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                1 of 2
+
+        <footer class="text-center text-white" style="margin: 50px 100px 100px 50px;">
+            <!-- Grid container -->
+            <div class="container pt-4" style="border: 2px solid black; width: 60%;">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i><img
+                            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1024px-Facebook_f_logo_%282021%29.svg.png"
+                            width="50px"></img></a></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Twitter_Logo.png?20210909091158"
+                            width="50px"></img></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-google"></i><img
+                            src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png"
+                            width="50px"></img></a></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png"
+                            width="50px"></img></a></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i><img
+                            src="https://images.rawpixel.com/image_png_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMS0wOC5wbmc.png"
+                            width="50px"></img></a></a>
+
+                </section>
+                <!-- Section: Social media -->
             </div>
-            <div class="col-8">
-                2 of 2
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="margin: 20px 200px 50px;">
+                © 2023 Copyright DF Cinemas:
+                <a class="text-dark">Group 1 - Alex A, Ifra, Paul, Liam</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                1 of 2
-            </div>
-            <div class="col-4">
-                2 of 2
-            </div>
-        </div>
-    </div>
-
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container pt-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-                <!-- Github -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright:
-            <a class="text-dark">Group 1</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
+            <!-- Copyright -->
+        </footer>
 
 </body>
 
