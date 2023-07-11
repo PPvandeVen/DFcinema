@@ -2,3 +2,51 @@
     left: 0;
 
 }
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+#batman-pic {
+    width: 500px;
+}
+
+#building {
+    width: 500px;
+    height: 250px;
+}
+
+#snacks {
+    width: 500px
+}
+
+header {
+    background-color: rgb(230, 22, 22);
+}
+
+div.row {
+    border-width: 2px;
+    border: dark red;
+}
+
+
+/* unvisited link */
+a:link {
+    color: rgb(254, 254, 254);
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(202, 11, 11);
+}
+
+/* selected link */
+a:active {
+    color: rgb(241, 62, 7));
+}
